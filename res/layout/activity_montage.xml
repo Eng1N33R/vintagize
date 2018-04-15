@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f5e5d5"
+    android:orientation="vertical" >
+
+    <net.engin33r.vintagize.MontageView
+        android:id="@+id/montage1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true" />
+    
+    <LinearLayout
+        android:id="@+id/panel"
+        android:background="@drawable/panel"
+        android:layout_width="fill_parent"
+        android:layout_height="41dp"
+        android:orientation="horizontal"
+        android:layout_alignBottom="@+id/montage1">
+
+        <ImageButton
+            android:id="@+id/accept"
+            android:layout_width="47dp"
+            android:layout_height="41dp"
+            android:background="@null"
+            android:src="@drawable/accept_icon"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/discard"
+            android:layout_width="47dp"
+            android:layout_height="41dp"
+            android:background="@null"
+            android:src="@drawable/discard_icon"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/add"
+            android:layout_width="47dp"
+            android:layout_height="41dp"
+            android:background="@null"
+            android:src="@drawable/add_icon"
+            android:layout_weight="1" />
+        
+        <!-- <ImageButton
+            android:id="@+id/effect"
+            android:layout_width="47dp"
+            android:layout_height="41dp"
+            android:background="@null"
+            android:src="@drawable/picture_icon"
+            android:layout_weight="1" /> -->
+
+        <ImageButton
+            android:id="@+id/select"
+            android:layout_width="47dp"
+            android:layout_height="41dp"
+            android:background="@null"
+            android:src="@drawable/mustache_icon"
+            android:layout_weight="1" />
+        
+    </LinearLayout>
+
+</RelativeLayout>

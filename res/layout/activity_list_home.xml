@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="#bbd1bb" >
+    
+    <ImageView
+		    android:id="@+id/listbackground"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:src="@drawable/background_full" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/list_mustaches"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mustaches"
+            android:background="@null"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/list_beards"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/beards"
+            android:background="@null"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/list_hats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hats"
+            android:background="@null"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/list_glasses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/glasses"
+            android:background="@null"
+            android:layout_weight="1" />
+        
+    </LinearLayout>
+	
+</RelativeLayout>

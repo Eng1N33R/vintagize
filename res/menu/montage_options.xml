@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/element"
+        android:title="@string/opt_element"
+        android:onClick="selectElement" />
+    <item
+        android:id="@+id/effect"
+        android:title="@string/opt_effect"
+        android:onClick="selectEffect" />
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bbd1bb" >
+    
+    <ImageView
+		    android:id="@+id/listbackground"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:src="@drawable/bgfull" />
+
+    <LinearLayout
+        android:id="@+id/listlinear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+    </LinearLayout>
+		
+	<LinearLayout
+        android:id="@+id/panel"
+        android:background="@drawable/panel"
+        android:layout_width="fill_parent"
+        android:layout_height="41dp"
+        android:orientation="horizontal"
+        android:layout_alignBottom="@+id/listbackground">
+        
+        <ImageButton
+            android:id="@+id/listother"
+            android:layout_width="47dp"
+            android:layout_height="41dp"
+            android:background="@null"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/listcancel"
+            android:layout_width="47dp"
+            android:layout_height="41dp"
+            android:background="@null"
+            android:src="@drawable/cancel_icon"
+            android:layout_weight="1" />
+       
+   	</LinearLayout>
+	
+</RelativeLayout>
